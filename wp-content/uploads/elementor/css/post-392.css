@@ -1,0 +1,58 @@
+.elementor-392 .elementor-element.elementor-element-fca4a88{margin-top:40px;margin-bottom:40px;}.elementor-392 .elementor-element.elementor-element-71fa7c0 iframe{height:755px;}.elementor-392 .elementor-element.elementor-element-cfc76e1 .elementor-icon-list-icon i{color:#000000;transition:color 0.3s;}.elementor-392 .elementor-element.elementor-element-cfc76e1 .elementor-icon-list-icon svg{fill:#000000;transition:fill 0.3s;}.elementor-392 .elementor-element.elementor-element-cfc76e1{--e-icon-list-icon-size:22px;--icon-vertical-offset:0px;}.elementor-392 .elementor-element.elementor-element-cfc76e1 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-392 .elementor-element.elementor-element-cfc76e1 .elementor-icon-list-item > a{font-family:"Roboto", Sans-serif;font-size:18px;font-weight:400;}.elementor-392 .elementor-element.elementor-element-cfc76e1 .elementor-icon-list-text{transition:color 0.3s;}.elementor-392 .elementor-element.elementor-element-cfc76e1 > .elementor-widget-container{margin:10px 0px 0px 0px;}.elementor-392 .elementor-element.elementor-element-d73aa7a{text-align:center;}.elementor-392 .elementor-element.elementor-element-d73aa7a .elementor-heading-title{color:#000000;font-family:"Roboto", Sans-serif;font-size:31px;font-weight:400;}.elementor-392 .elementor-element.elementor-element-d73aa7a > .elementor-widget-container{margin:20px 0px 0px 0px;}@media(max-width:767px){.elementor-392 .elementor-element.elementor-element-971d9ea img{width:35%;}}@media(min-width:768px){.elementor-392 .elementor-element.elementor-element-d9252da{width:25%;}.elementor-392 .elementor-element.elementor-element-4c89f5a{width:75%;}}/* Start custom CSS for wp-widget-custom_html, class: .elementor-element-ea1b8e2 *//* Tổng thể */
+.form-ct {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.form-row {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.w50 {
+    width: 48%;
+}
+
+.center-txt {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #cbba9c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 200px
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(248, 183, 66, 0.6);
+}
+
+.ajax-loader {
+    display: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .w50 {
+        width: 100%;
+    }
+}/* End custom CSS */

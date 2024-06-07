@@ -1,0 +1,71 @@
+.elementor-377 .elementor-element.elementor-element-20ab43d.elementor-wc-products  ul.products{grid-column-gap:20px;grid-row-gap:40px;}.elementor-377 .elementor-element.elementor-element-20ab43d.elementor-wc-products ul.products li.product .woocommerce-loop-product__title{color:#334862;}.elementor-377 .elementor-element.elementor-element-20ab43d.elementor-wc-products ul.products li.product .woocommerce-loop-category__title{color:#334862;}.elementor-377 .elementor-element.elementor-element-20ab43d.elementor-wc-products ul.products li.product .woocommerce-loop-product__title, .elementor-377 .elementor-element.elementor-element-20ab43d.elementor-wc-products ul.products li.product .woocommerce-loop-category__title{font-family:"Roboto", Sans-serif;font-weight:300;}.elementor-377 .elementor-element.elementor-element-20ab43d.elementor-wc-products ul.products li.product .price{color:#454545;}.elementor-377 .elementor-element.elementor-element-20ab43d.elementor-wc-products ul.products li.product .price ins{color:#454545;}.elementor-377 .elementor-element.elementor-element-20ab43d.elementor-wc-products ul.products li.product .price ins .amount{color:#454545;}.elementor-377 .elementor-element.elementor-element-20ab43d.elementor-wc-products ul.products li.product .price del{color:#454545;}.elementor-377 .elementor-element.elementor-element-20ab43d.elementor-wc-products ul.products li.product .price del .amount{color:#454545;}.elementor-377 .elementor-element.elementor-element-20ab43d.elementor-wc-products ul.products li.product span.onsale{display:block;color:#FFFFFF;background-color:#CBBA9C;font-size:20px;font-weight:400;border-radius:100px;min-width:50px;min-height:50px;line-height:50px;right:auto;left:0;margin:-13px;}@media(min-width:768px){.elementor-377 .elementor-element.elementor-element-34c3e22{width:30%;}.elementor-377 .elementor-element.elementor-element-f0a6904{width:70%;}}@media(max-width:1024px){.elementor-377 .elementor-element.elementor-element-20ab43d.elementor-wc-products  ul.products{grid-column-gap:20px;grid-row-gap:40px;}}@media(max-width:767px){.elementor-377 .elementor-element.elementor-element-20ab43d.elementor-wc-products  ul.products{grid-column-gap:20px;grid-row-gap:40px;}}/* Start custom CSS for wp-widget-woocommerce_product_categories, class: .elementor-element-a6f70f1 */h5{
+    margin-bottom: 10px;
+    font-size: 30px
+}
+/* Style for the entire product categories list */
+.product-categories {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style for each category item */
+.product-categories .cat-item {
+    margin-bottom: 5px; /* Reduced margin for less spacing */
+}
+
+/* Style for category links */
+.product-categories .cat-item a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 12px; /* Adjusted padding */
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #ccc; /* Added border */
+}
+
+/* Style for parent categories */
+.product-categories .cat-parent > a {
+    font-weight: bold;
+    background-color: #f0f0f0;
+}
+
+/* Style for child category list */
+.product-categories .children {
+    list-style-type: none;
+    padding-left: 15px; /* Adjusted padding */
+    margin-top: 5px;
+}
+
+/* Style for child category items */
+.product-categories .children .cat-item a {
+    background-color: #fafafa;
+}
+
+/* Hover effects for category links */
+.product-categories .cat-item a:hover {
+    background-color: #e0e0e0;
+    color: #000;
+}
+
+/* Style for the currently selected category */
+.product-categories .current-cat > a {
+    background-color: #d0d0d0;
+    font-weight: bold;
+    color: #97712E;
+}
+
+/* Media query for responsive design */
+@media (max-width: 600px) {
+    .product-categories .cat-item a {
+        padding: 6px 8px; /* Adjusted padding for smaller screens */
+    }
+
+    .product-categories .children {
+        padding-left: 10px; /* Adjusted padding for smaller screens */
+    }
+}/* End custom CSS */
+/* Start custom CSS for wc-archive-products, class: .elementor-element-20ab43d */span.ast-on-card-button.ast-onsale-card{
+    display: none;
+}/* End custom CSS */
